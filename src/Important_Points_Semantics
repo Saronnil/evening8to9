@@ -1,0 +1,11 @@
+1. Create a package
+package name should start with a small letter
+package name follows camel case
+ex . Seleniumjava - seleniumJava (Camel case)
+
+2.Always remember to create a class within a package
+3.Create a class
+Class Name should start with a capital letter
+classname follows Pascal case
+ex . SamHenry
+
