@@ -21,4 +21,8 @@ public class MethodDeclaration {
     // accessmodifier returntype methodname(argument to be passed)
 
     // AM defines the scope or visibility of method public , private , default , protected
+    // private - access within the class
+    // public - access anywhere in project
+    // default - access within the package only
+    // protected - access within the package - accessed outside the package bia inheritance.
 }
