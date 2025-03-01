@@ -5,6 +5,10 @@ public class ChildClass extends  ParentClass {
         public void circle(){
             System.out.println("Circle");
         }
+        @Override
+        public void Shapes(){
+            System.out.println("Shapes in child class");
+        }
 
         public void  rhombus(){
             System.out.println("Rhombus");
