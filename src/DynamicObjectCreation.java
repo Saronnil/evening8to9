@@ -21,7 +21,7 @@ public class DynamicObjectCreation {
         try {
             // Dynamically load the class
             Class<?> cls = Class.forName(className);
-            // Create an instance of the class
+             // Create an instance of the class
             Object obj = cls.getDeclaredConstructor().newInstance();
             System.out.println("Object of class " + className + " created: " + obj);
         } catch (ClassNotFoundException e) {
@@ -33,5 +33,4 @@ public class DynamicObjectCreation {
         }
     }
 }
-{
-}
+
