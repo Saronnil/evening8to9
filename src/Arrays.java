@@ -16,7 +16,7 @@ public class Arrays {
         int []b4 = java.util.Arrays.copyOfRange(b3, 10, 20);
         System.out.println(java.util.Arrays.toString(b4));
         for (int i = 0 ; i < b4.length ; i++) {
-            System.out.println(b4[i]);
+            System.out.print(b4[i]);
         }
     }
 }
