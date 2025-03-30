@@ -7,8 +7,8 @@ import java.util.Set;
 
 public class HandlingWindowsandTabs {
     public static void main (String [] args) throws InterruptedException {
-//        WebDriver driver = new ChromeDriver();
-        RemoteWebDriver driver = new ChromeDriver();
+        WebDriver driver = new ChromeDriver();
+//        RemoteWebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com");
         // syntax of creating a new Tab
         driver.switchTo().newWindow(WindowType.TAB);

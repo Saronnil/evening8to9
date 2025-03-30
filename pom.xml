@@ -14,7 +14,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <selenium-version>LATEST</selenium-version>
         <webdrivermanager-version>LATEST</webdrivermanager-version>
-    </properties>
+        <lombok-version>LATEST</lombok-version>
+        </properties>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
@@ -28,6 +29,28 @@
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
             <version>${webdrivermanager-version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.github.qsy7.java.modules.browser.drivers/firefoxdriver -->
+        <dependency>
+            <groupId>io.github.qsy7.java.modules.browser.drivers</groupId>
+            <artifactId>firefoxdriver</artifactId>
+            <version>0.3.3</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok-version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.microsoft.edge/msedge-selenium-tools-java -->
+        <dependency>
+            <groupId>com.microsoft.edge</groupId>
+            <artifactId>msedge-selenium-tools-java</artifactId>
+            <version>3.141.1</version>
         </dependency>
     </dependencies>
 </project>
