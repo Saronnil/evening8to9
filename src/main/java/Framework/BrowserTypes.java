@@ -6,7 +6,7 @@ public enum BrowserTypes {
     EDGE ("edge"),
     SAFARI ("safari");
 
-    private String browser;
+    private final String browser;
     BrowserTypes(String browser){
         this.browser = browser;
     }

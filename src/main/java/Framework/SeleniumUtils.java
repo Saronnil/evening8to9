@@ -1,17 +1,18 @@
 package Framework;
 
+import lombok.AllArgsConstructor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.WindowType;
 
 import java.util.Set;
-
+@AllArgsConstructor // based on variable it can create parameterized constructor
 public class SeleniumUtils {
      WebDriver driver ;
 
-    public SeleniumUtils(WebDriver driver){
-        this.driver= driver;
-    }
+//    public SeleniumUtils(WebDriver driver){
+//        this.driver= driver;
+//    }
 
     public String  createnewTabandlaunchapplication(String url )
     {
